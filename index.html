@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open World</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="2.png" type="image/png">
+</head>
+<body>
+
+
+  <div class="container">
+    <div class="logo">Open World</div>
+
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Search here or type a URL">
+      <span class="search-icon" id="search-icon">&#8981;</span>
+    </div>
+
+    <div class="shortcuts">
+      <div class="tile" onclick="goTo('https://www.youtube.com')">YouTube</div>
+      <div class="tile" onclick="goTo('https://www.google.co.in/maps')">Google Maps</div>
+      <div class="tile" onclick="goTo('https://www.wikipedia.org')">Wikipedia</div>
+      <div class="tile" onclick="goTo('https://www.youtubekids.com/?source=youtube_web')">YouTube Kids</div>
+      <div class="tile" onclick="goTo('https://www.cartoonnetwork.co.uk/')">Cartoon Network</div>
+    </div>
+  </div>
+
+  <div class="developer-credit">Development by Unknown</div>
+  <!-- 3 Dot Menu -->
+<div class="menu-container">
+  <div class="menu-icon" id="menu-icon">&#8942;</div>
+</div>
+
+<!-- Popup Menu -->
+<div class="popup" id="popup">
+  <ul>
+   
+    <li onclick="openInfo()">Information</li>
+  </ul>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
